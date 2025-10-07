@@ -1,16 +1,17 @@
-import '../styles/globals.css';
+export const metadata = {
+  title: "CS_Freedome v2",
+  description: "AI-powered Marketplace Template",
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang=\"ru\" className=\"bg-darkBg text-white font-sans overflow-x-hidden\">
+    <html lang="ru" className="bg-black text-white font-sans overflow-x-hidden">
       <head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>CS_Freedome v2</title>
-        <link rel="icon" href="/logo.svg"~
       </head>
-      <body className=\"min-h-screen bg-darkBg text-white flex flex-col overflow-x-hidden\">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
