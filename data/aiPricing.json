@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Aaw Skin 1",
+    "ai_price": 16.5,
+    "prognosis": "“Trend growth: +10% in next week.”",
+    "trend": [{"x": 1, "value": 10}, {"x": 2, "value": 12}, {"x": 3, "value": 15}, {"x": 4, "value": 20}]
+  },
+  {
+    "id": 2,
+    "name": "Desert Scar",
+    "ai_price": 28.5,
+    "prognosis": "”Price decrease: -9% during the week.”",
+    "trend": [{"x": 1, "value": 20}, {"x": 2, "value": 19}, {"x": 3, "value": 16}, {"x": 4, "value": 15}]
+  },
+  {
+    "id": 3,
+    "name": "Nein Skin",
+    "ai_price": 5.5,
+    "prognosis": "”Stable price, no major changes expected”",
+    "trend": [{"x": 1, "value": 5}, {"x": 2, "value": 6}, {"x": 3, "value": 6}, {"x": 4, "value": 5.5}]
+  }
+]
