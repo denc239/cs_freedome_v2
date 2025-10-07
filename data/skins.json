@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Aaw Skin 1",
+    "price": 15.00,
+    "rarely": "Rare",
+    "popularity": 85,
+    "chart": [{"x": 1, "e": 100}, {"x": 2, "e": 120}, {"x": 3, "e": 90}]
+  },
+  {
+    "id": 2,
+    "name": "Desert Scar 2",
+    "price": 30.00,
+    "rarely": "Epic Rare",
+    "popularity": 90,
+    "chart": [{"x": 1, "e": 120}, {"x": 2, "e": 140}, {"x": 3, "e": 110}]
+  },
+  {
+    "id": 3,
+    "name": "Nein Skin 3",
+    "price": 5.00,
+    "rarely": "Common",
+    "popularity": 75,
+    "chart": [{"x": 1, "e": 80}, {"x": 2, "e": 70}, {"x": 3, "e": 70}]
+  }
+]
