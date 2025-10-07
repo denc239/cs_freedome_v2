@@ -1,5 +1,7 @@
-import { motion } from 'framer-motion';
-import { useState } from 'react';
+"use client";
+
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function TradePage() {
   const [userOne, setUserOne] = useState(null);
@@ -14,7 +16,8 @@ export default function TradePage() {
       </div>
 
       <p className="text-gray-200 text-sm mt-6 mb-8 text-center">
-        Перетащи предметы между зонами, чтобы выполнить обмен. AI подскажет, равный ли обмен.
+        💡 Перетащи предметы между зонами, чтобы выполнить обмен. <br />
+        AI подскажет, равный ли обмен.
       </p>
 
       <div className="flex flex-row justify-between gap-8 w-full mt-16 relative">
